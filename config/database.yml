@@ -15,7 +15,7 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: admin
   password: password
-  host: terraform-db-instance.cw7z47h4qfvy.ap-northeast-1.rds.amazonaws.com
+  host: terraform-db-instance.c7ebcdldpjme.ap-northeast-1.rds.amazonaws.com
 
 development:
   <<: *default
